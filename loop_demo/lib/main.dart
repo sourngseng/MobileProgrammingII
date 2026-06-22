@@ -23,6 +23,8 @@ class MyApp extends StatelessWidget {
 
 // HomePage widget that displays a list of student cards generated using a for loop
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   List<Widget> generateStudents() {
     List<Widget> students = []; // Create an empty list to hold student cards
 
